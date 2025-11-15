@@ -1,0 +1,69 @@
+2025-06-14T09:10:51.544Z [debug] [main] Safe constructing new CMakeProject instance
+2025-06-14T09:10:51.544Z [debug] [variant] Constructing VariantManager
+2025-06-14T09:10:51.545Z [debug] [main] Constructing new CMakeProject instance
+2025-06-14T09:10:51.545Z [debug] [main] Starting CMake Tools second-phase init
+2025-06-14T09:10:51.545Z [debug] [expand] expanded ${workspaceFolder}
+2025-06-14T09:10:51.546Z [debug] [kit] Reading kits file /Users/raman/.local/share/CMakeTools/cmake-tools-kits.json
+2025-06-14T09:10:51.565Z [info] [kit] Successfully loaded 1 kits from /Users/raman/.local/share/CMakeTools/cmake-tools-kits.json
+2025-06-14T09:10:51.567Z [debug] [kit] Not reading non-existent kits file: /Users/raman/Downloads/DSA-main/Striver/Array/.vscode/cmake-kits.json
+2025-06-14T09:10:51.572Z [info] [variant] Loaded new set of variants
+2025-06-14T09:10:51.576Z [debug] [main] CMakeProject instance initialization complete.
+2025-06-14T09:10:51.589Z [debug] [main] Not starting CMake driver: no kit selected
+2025-06-14T09:10:56.619Z [debug] [main] Not starting CMake driver: no kit selected
+2025-06-14T09:11:32.093Z [debug] [main] Not starting CMake driver: no kit selected
+2025-06-14T09:12:39.537Z [debug] [extension] Deactivate CMakeTools
+-14T08:57:51.603Z [debug] [extension] Deactivate CMakeTools
+/usr/local/bin
+2025-06-14T08:49:52.278Z [debug] [kit] Scanning directory /System/Cryptexes/App/usr/bin for compilers
+2025-06-14T08:49:52.278Z [debug] [kit] Scanning directory /bin for compilers
+2025-06-14T08:49:52.278Z [debug] [kit] Scanning directory /usr/bin for compilers
+2025-06-14T08:49:52.278Z [debug] [kit] Scanning directory /usr/sbin for compilers
+2025-06-14T08:49:52.278Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
+2025-06-14T08:49:52.278Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
+2025-06-14T08:49:52.278Z [debug] [kit] Scanning directory /sbin for compilers
+2025-06-14T08:49:52.278Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
+2025-06-14T08:49:52.278Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
+2025-06-14T08:49:52.278Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+2025-06-14T08:49:52.278Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+2025-06-14T08:49:52.278Z [debug] [kit] Skipping scan of not existing path undefined\LLVM\bin
+2025-06-14T08:49:52.278Z [debug] [kit] Found 0 kits in directory undefined\LLVM\bin
+2025-06-14T08:49:52.278Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang64\bin
+2025-06-14T08:49:52.278Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang64\bin
+2025-06-14T08:49:52.278Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw64\bin
+2025-06-14T08:49:52.278Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw64\bin
+2025-06-14T08:49:52.278Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw32\bin
+2025-06-14T08:49:52.278Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw32\bin
+2025-06-14T08:49:52.278Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clangarm64\bin
+2025-06-14T08:49:52.278Z [debug] [kit] Found 0 kits in directory undefined\msys64\clangarm64\bin
+2025-06-14T08:49:52.278Z [debug] [kit] Skipping scan of not existing path undefined\msys64\ucrt64\bin
+2025-06-14T08:49:52.278Z [debug] [kit] Found 0 kits in directory undefined\msys64\ucrt64\bin
+2025-06-14T08:49:52.278Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang32\bin
+2025-06-14T08:49:52.279Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang32\bin
+2025-06-14T08:49:52.279Z [debug] [kit] Found 0 kits in directory /System/Cryptexes/App/usr/bin
+2025-06-14T08:49:52.279Z [debug] [kit] Found 0 kits in directory /bin
+2025-06-14T08:49:52.280Z [debug] [kit] Found 0 kits in directory /sbin
+2025-06-14T08:49:52.282Z [debug] [kit] Found 0 kits in directory /usr/sbin
+2025-06-14T08:49:52.284Z [debug] [kit] Testing Clang binary: /usr/bin/clang
+2025-06-14T08:49:52.284Z [info] [proc] Executing command: /usr/bin/clang -v
+2025-06-14T08:49:52.286Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2025-06-14T08:49:52.286Z [info] [proc] Executing command: /usr/bin/gcc -v
+2025-06-14T08:49:52.287Z [debug] [kit] Testing GCC binary: /usr/bin/llvm-gcc
+2025-06-14T08:49:52.287Z [info] [proc] Executing command: /usr/bin/llvm-gcc -v
+2025-06-14T08:49:52.300Z [debug] [kit] Bad GCC binary. "/usr/bin/llvm-gcc -v" reports version:  output: Apple clang version 17.0.0 (clang-1700.0.13.5)
+Target: arm64-apple-darwin24.3.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+2025-06-14T08:49:52.300Z [debug] [kit] Detected Clang compiler: /usr/bin/clang
+2025-06-14T08:49:52.301Z [debug] [kit] Detected Clang compiler: /usr/bin/clang
+2025-06-14T08:49:52.304Z [debug] [kit] Bad GCC binary. "/usr/bin/gcc -v" reports version:  output: Apple clang version 17.0.0 (clang-1700.0.13.5)
+Target: arm64-apple-darwin24.3.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+2025-06-14T08:49:52.304Z [debug] [kit] Found 1 kits in directory /usr/bin
+2025-06-14T08:49:52.304Z [info] [kit] Found Kit (trusted): Clang 17.0.0 arm64-apple-darwin24.3.0
+2025-06-14T08:49:52.305Z [debug] [kitsController] Saving kits to /Users/raman/.local/share/CMakeTools/cmake-tools-kits.json
+2025-06-14T08:49:52.305Z [debug] [kitsController] Saving new kits to /Users/raman/.local/share/CMakeTools/cmake-tools-kits.json
+2025-06-14T08:49:57.316Z [debug] [main] Not starting CMake driver: no kit selected
+2025-06-14T08:50:09.052Z [debug] [extension] Deactivate CMakeTools

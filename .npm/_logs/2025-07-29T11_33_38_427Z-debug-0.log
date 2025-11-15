@@ -1,0 +1,477 @@
+0 verbose cli /opt/homebrew/Cellar/node/24.4.1/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.4.2
+2 info using node@v24.4.1
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/raman/Documents/projects/gemini-clone/gemini-clone/.npmrc
+5 silly config load:file:/Users/raman/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install @google/genai
+8 verbose argv "install" "@google/genai"
+9 verbose logfile logs-max:10 dir:/Users/raman/.npm/_logs/2025-07-29T11_33_38_427Z-
+10 verbose logfile /Users/raman/.npm/_logs/2025-07-29T11_33_38_427Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @google/genai@^1.11.0
+16 silly packumentCache full:https://registry.npmjs.org/@google%2fgenai cache-miss
+17 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+18 http fetch GET https://registry.npmjs.org/@google%2fgenai attempt 1 failed with ETIMEDOUT
+19 http fetch GET 200 https://registry.npmjs.org/@google%2fgenai 90465ms (cache revalidated)
+20 silly packumentCache full:https://registry.npmjs.org/@google%2fgenai set size:140030 disposed:false
+21 silly fetch manifest @modelcontextprotocol/sdk@^1.11.0
+22 silly packumentCache full:https://registry.npmjs.org/@modelcontextprotocol%2fsdk cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/@modelcontextprotocol%2fsdk 385ms (cache revalidated)
+24 silly packumentCache full:https://registry.npmjs.org/@modelcontextprotocol%2fsdk set size:174309 disposed:false
+25 silly placeDep ROOT @google/genai@1.11.0 REPLACE for: gemini-clone@0.0.0 want: ^1.11.0
+26 silly reify moves {}
+27 silly audit bulk request {
+27 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+27 silly audit   '@babel/code-frame': [ '7.27.1' ],
+27 silly audit   '@babel/compat-data': [ '7.28.0' ],
+27 silly audit   '@babel/core': [ '7.28.0' ],
+27 silly audit   '@babel/generator': [ '7.28.0' ],
+27 silly audit   '@babel/helper-compilation-targets': [ '7.27.2' ],
+27 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+27 silly audit   '@babel/helper-module-imports': [ '7.27.1' ],
+27 silly audit   '@babel/helper-module-transforms': [ '7.27.3' ],
+27 silly audit   '@babel/helper-plugin-utils': [ '7.27.1' ],
+27 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+27 silly audit   '@babel/helper-validator-identifier': [ '7.27.1' ],
+27 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+27 silly audit   '@babel/helpers': [ '7.28.2' ],
+27 silly audit   '@babel/parser': [ '7.28.0' ],
+27 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+27 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+27 silly audit   '@babel/template': [ '7.27.2' ],
+27 silly audit   '@babel/traverse': [ '7.28.0' ],
+27 silly audit   '@babel/types': [ '7.28.2' ],
+27 silly audit   '@esbuild/aix-ppc64': [ '0.25.8' ],
+27 silly audit   '@esbuild/android-arm': [ '0.25.8' ],
+27 silly audit   '@esbuild/android-arm64': [ '0.25.8' ],
+27 silly audit   '@esbuild/android-x64': [ '0.25.8' ],
+27 silly audit   '@esbuild/darwin-arm64': [ '0.25.8' ],
+27 silly audit   '@esbuild/darwin-x64': [ '0.25.8' ],
+27 silly audit   '@esbuild/freebsd-arm64': [ '0.25.8' ],
+27 silly audit   '@esbuild/freebsd-x64': [ '0.25.8' ],
+27 silly audit   '@esbuild/linux-arm': [ '0.25.8' ],
+27 silly audit   '@esbuild/linux-arm64': [ '0.25.8' ],
+27 silly audit   '@esbuild/linux-ia32': [ '0.25.8' ],
+27 silly audit   '@esbuild/linux-loong64': [ '0.25.8' ],
+27 silly audit   '@esbuild/linux-mips64el': [ '0.25.8' ],
+27 silly audit   '@esbuild/linux-ppc64': [ '0.25.8' ],
+27 silly audit   '@esbuild/linux-riscv64': [ '0.25.8' ],
+27 silly audit   '@esbuild/linux-s390x': [ '0.25.8' ],
+27 silly audit   '@esbuild/linux-x64': [ '0.25.8' ],
+27 silly audit   '@esbuild/netbsd-arm64': [ '0.25.8' ],
+27 silly audit   '@esbuild/netbsd-x64': [ '0.25.8' ],
+27 silly audit   '@esbuild/openbsd-arm64': [ '0.25.8' ],
+27 silly audit   '@esbuild/openbsd-x64': [ '0.25.8' ],
+27 silly audit   '@esbuild/openharmony-arm64': [ '0.25.8' ],
+27 silly audit   '@esbuild/sunos-x64': [ '0.25.8' ],
+27 silly audit   '@esbuild/win32-arm64': [ '0.25.8' ],
+27 silly audit   '@esbuild/win32-ia32': [ '0.25.8' ],
+27 silly audit   '@esbuild/win32-x64': [ '0.25.8' ],
+27 silly audit   '@eslint-community/eslint-utils': [ '4.7.0' ],
+27 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+27 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+27 silly audit   '@eslint/config-array': [ '0.21.0' ],
+27 silly audit   '@eslint/config-helpers': [ '0.3.0' ],
+27 silly audit   '@eslint/core': [ '0.15.1' ],
+27 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+27 silly audit   globals: [ '14.0.0', '16.3.0' ],
+27 silly audit   '@eslint/js': [ '9.32.0' ],
+27 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+27 silly audit   '@eslint/plugin-kit': [ '0.3.4' ],
+27 silly audit   '@google/generative-ai': [ '0.24.1' ],
+27 silly audit   '@humanfs/core': [ '0.19.1' ],
+27 silly audit   '@humanfs/node': [ '0.16.6' ],
+27 silly audit   '@humanwhocodes/retry': [ '0.3.1', '0.4.3' ],
+27 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+27 silly audit   '@jridgewell/gen-mapping': [ '0.3.12' ],
+27 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+27 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.4' ],
+27 silly audit   '@jridgewell/trace-mapping': [ '0.3.29' ],
+27 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+27 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-android-arm64': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-darwin-arm64': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-darwin-x64': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-freebsd-x64': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-linux-loongarch64-gnu': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.46.1' ],
+27 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.46.1' ],
+27 silly audit   '@types/babel__core': [ '7.20.5' ],
+27 silly audit   '@types/babel__generator': [ '7.27.0' ],
+27 silly audit   '@types/babel__template': [ '7.4.4' ],
+27 silly audit   '@types/babel__traverse': [ '7.20.7' ],
+27 silly audit   '@types/estree': [ '1.0.8' ],
+27 silly audit   '@types/json-schema': [ '7.0.15' ],
+27 silly audit   '@types/react': [ '19.1.9' ],
+27 silly audit   '@types/react-dom': [ '19.1.7' ],
+27 silly audit   '@vitejs/plugin-react': [ '4.7.0' ],
+27 silly audit   acorn: [ '8.15.0' ],
+27 silly audit   'acorn-jsx': [ '5.3.2' ],
+27 silly audit   'agent-base': [ '7.1.4' ],
+27 silly audit   ajv: [ '6.12.6' ],
+27 silly audit   'ansi-styles': [ '4.3.0' ],
+27 silly audit   argparse: [ '2.0.1' ],
+27 silly audit   'balanced-match': [ '1.0.2' ],
+27 silly audit   'base64-js': [ '1.5.1' ],
+27 silly audit   'bignumber.js': [ '9.3.1' ],
+27 silly audit   'brace-expansion': [ '1.1.12' ],
+27 silly audit   browserslist: [ '4.25.1' ],
+27 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+27 silly audit   callsites: [ '3.1.0' ],
+27 silly audit   'caniuse-lite': [ '1.0.30001731' ],
+27 silly audit   chalk: [ '4.1.2' ],
+27 silly audit   'color-convert': [ '2.0.1' ],
+27 silly audit   'color-name': [ '1.1.4' ],
+27 silly audit   'concat-map': [ '0.0.1' ],
+27 silly audit   'convert-source-map': [ '2.0.0' ],
+27 silly audit   'cross-spawn': [ '7.0.6' ],
+27 silly audit   csstype: [ '3.1.3' ],
+27 silly audit   debug: [ '4.4.1' ],
+27 silly audit   'deep-is': [ '0.1.4' ],
+27 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+27 silly audit   'electron-to-chromium': [ '1.5.192' ],
+27 silly audit   esbuild: [ '0.25.8' ],
+27 silly audit   escalade: [ '3.2.0' ],
+27 silly audit   'escape-string-regexp': [ '4.0.0' ],
+27 silly audit   eslint: [ '9.32.0' ],
+27 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+27 silly audit   'eslint-plugin-react-refresh': [ '0.4.20' ],
+27 silly audit   'eslint-scope': [ '8.4.0' ],
+27 silly audit   espree: [ '10.4.0' ],
+27 silly audit   esquery: [ '1.6.0' ],
+27 silly audit   esrecurse: [ '4.3.0' ],
+27 silly audit   estraverse: [ '5.3.0' ],
+27 silly audit   esutils: [ '2.0.3' ],
+27 silly audit   extend: [ '3.0.2' ],
+27 silly audit   'fast-deep-equal': [ '3.1.3' ],
+27 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+27 silly audit   'fast-levenshtein': [ '2.0.6' ],
+27 silly audit   fdir: [ '6.4.6' ],
+27 silly audit   'file-entry-cache': [ '8.0.0' ],
+27 silly audit   'find-up': [ '5.0.0' ],
+27 silly audit   'flat-cache': [ '4.0.1' ],
+27 silly audit   flatted: [ '3.3.3' ],
+27 silly audit   fsevents: [ '2.3.3' ],
+27 silly audit   gaxios: [ '6.7.1' ],
+27 silly audit   'gcp-metadata': [ '6.1.1' ],
+27 silly audit   gensync: [ '1.0.0-beta.2' ],
+27 silly audit   'glob-parent': [ '6.0.2' ],
+27 silly audit   'google-auth-library': [ '9.15.1' ],
+27 silly audit   'google-logging-utils': [ '0.0.2' ],
+27 silly audit   gtoken: [ '7.1.0' ],
+27 silly audit   'has-flag': [ '4.0.0' ],
+27 silly audit   'https-proxy-agent': [ '7.0.6' ],
+27 silly audit   ignore: [ '5.3.2' ],
+27 silly audit   'import-fresh': [ '3.3.1' ],
+27 silly audit   imurmurhash: [ '0.1.4' ],
+27 silly audit   'is-extglob': [ '2.1.1' ],
+27 silly audit   'is-glob': [ '4.0.3' ],
+27 silly audit   'is-stream': [ '2.0.1' ],
+27 silly audit   isexe: [ '2.0.0' ],
+27 silly audit   'js-tokens': [ '4.0.0' ],
+27 silly audit   'js-yaml': [ '4.1.0' ],
+27 silly audit   jsesc: [ '3.1.0' ],
+27 silly audit   'json-bigint': [ '1.0.0' ],
+27 silly audit   'json-buffer': [ '3.0.1' ],
+27 silly audit   'json-schema-traverse': [ '0.4.1' ],
+27 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+27 silly audit   json5: [ '2.2.3' ],
+27 silly audit   jwa: [ '2.0.1' ],
+27 silly audit   jws: [ '4.0.0' ],
+27 silly audit   keyv: [ '4.5.4' ],
+27 silly audit   levn: [ '0.4.1' ],
+27 silly audit   'locate-path': [ '6.0.0' ],
+27 silly audit   'lodash.merge': [ '4.6.2' ],
+27 silly audit   'lru-cache': [ '5.1.1' ],
+27 silly audit   mime: [ '4.0.7' ],
+27 silly audit   minimatch: [ '3.1.2' ],
+27 silly audit   ms: [ '2.1.3' ],
+27 silly audit   nanoid: [ '3.3.11' ],
+27 silly audit   'natural-compare': [ '1.4.0' ],
+27 silly audit   'node-fetch': [ '2.7.0' ],
+27 silly audit   'node-releases': [ '2.0.19' ],
+27 silly audit   optionator: [ '0.9.4' ],
+27 silly audit   'p-limit': [ '3.1.0' ],
+27 silly audit   'p-locate': [ '5.0.0' ],
+27 silly audit   'parent-module': [ '1.0.1' ],
+27 silly audit   'path-exists': [ '4.0.0' ],
+27 silly audit   'path-key': [ '3.1.1' ],
+27 silly audit   picocolors: [ '1.1.1' ],
+27 silly audit   picomatch: [ '4.0.3' ],
+27 silly audit   postcss: [ '8.5.6' ],
+27 silly audit   'prelude-ls': [ '1.2.1' ],
+27 silly audit   punycode: [ '2.3.1' ],
+27 silly audit   react: [ '19.1.1' ],
+27 silly audit   'react-dom': [ '19.1.1' ],
+27 silly audit   'react-refresh': [ '0.17.0' ],
+27 silly audit   'resolve-from': [ '4.0.0' ],
+27 silly audit   rollup: [ '4.46.1' ],
+27 silly audit   'safe-buffer': [ '5.2.1' ],
+27 silly audit   scheduler: [ '0.26.0' ],
+27 silly audit   semver: [ '6.3.1' ],
+27 silly audit   'shebang-command': [ '2.0.0' ],
+27 silly audit   'shebang-regex': [ '3.0.0' ],
+27 silly audit   'source-map-js': [ '1.2.1' ],
+27 silly audit   'strip-json-comments': [ '3.1.1' ],
+27 silly audit   'supports-color': [ '7.2.0' ],
+27 silly audit   tinyglobby: [ '0.2.14' ],
+27 silly audit   tr46: [ '0.0.3' ],
+27 silly audit   'type-check': [ '0.4.0' ],
+27 silly audit   'update-browserslist-db': [ '1.1.3' ],
+27 silly audit   'uri-js': [ '4.4.1' ],
+27 silly audit   uuid: [ '9.0.1' ],
+27 silly audit   vite: [ '7.0.6' ],
+27 silly audit   'webidl-conversions': [ '3.0.1' ],
+27 silly audit   'whatwg-url': [ '5.0.0' ],
+27 silly audit   which: [ '2.0.2' ],
+27 silly audit   'word-wrap': [ '1.2.5' ],
+27 silly audit   ws: [ '8.18.3' ],
+27 silly audit   yallist: [ '3.1.1' ],
+27 silly audit   'yocto-queue': [ '0.1.0' ],
+27 silly audit   '@google/genai': [ '1.11.0' ]
+27 silly audit }
+28 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-win32-x64-msvc
+29 silly reify mark deleted [
+29 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-win32-x64-msvc'
+29 silly reify ]
+30 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-win32-ia32-msvc
+31 silly reify mark deleted [
+31 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-win32-ia32-msvc'
+31 silly reify ]
+32 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-win32-arm64-msvc
+33 silly reify mark deleted [
+33 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-win32-arm64-msvc'
+33 silly reify ]
+34 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-x64-musl
+35 silly reify mark deleted [
+35 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-x64-musl'
+35 silly reify ]
+36 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-x64-gnu
+37 silly reify mark deleted [
+37 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-x64-gnu'
+37 silly reify ]
+38 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-s390x-gnu
+39 silly reify mark deleted [
+39 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-s390x-gnu'
+39 silly reify ]
+40 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-riscv64-musl
+41 silly reify mark deleted [
+41 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-riscv64-musl'
+41 silly reify ]
+42 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-riscv64-gnu
+43 silly reify mark deleted [
+43 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-riscv64-gnu'
+43 silly reify ]
+44 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-ppc64-gnu
+45 silly reify mark deleted [
+45 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-ppc64-gnu'
+45 silly reify ]
+46 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-loongarch64-gnu
+47 silly reify mark deleted [
+47 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-loongarch64-gnu'
+47 silly reify ]
+48 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-arm64-musl
+49 silly reify mark deleted [
+49 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-arm64-musl'
+49 silly reify ]
+50 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-arm64-gnu
+51 silly reify mark deleted [
+51 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-arm64-gnu'
+51 silly reify ]
+52 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-arm-musleabihf
+53 silly reify mark deleted [
+53 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-arm-musleabihf'
+53 silly reify ]
+54 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-arm-gnueabihf
+55 silly reify mark deleted [
+55 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+55 silly reify ]
+56 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-freebsd-x64
+57 silly reify mark deleted [
+57 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-freebsd-x64'
+57 silly reify ]
+58 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-freebsd-arm64
+59 silly reify mark deleted [
+59 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-freebsd-arm64'
+59 silly reify ]
+60 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-darwin-x64
+61 silly reify mark deleted [
+61 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-darwin-x64'
+61 silly reify ]
+62 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-android-arm64
+63 silly reify mark deleted [
+63 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-android-arm64'
+63 silly reify ]
+64 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-android-arm-eabi
+65 silly reify mark deleted [
+65 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@rollup/rollup-android-arm-eabi'
+65 silly reify ]
+66 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/win32-x64
+67 silly reify mark deleted [
+67 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/win32-x64'
+67 silly reify ]
+68 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/win32-ia32
+69 silly reify mark deleted [
+69 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/win32-ia32'
+69 silly reify ]
+70 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/win32-arm64
+71 silly reify mark deleted [
+71 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/win32-arm64'
+71 silly reify ]
+72 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/sunos-x64
+73 silly reify mark deleted [
+73 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/sunos-x64'
+73 silly reify ]
+74 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/openharmony-arm64
+75 silly reify mark deleted [
+75 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/openharmony-arm64'
+75 silly reify ]
+76 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/openbsd-x64
+77 silly reify mark deleted [
+77 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/openbsd-x64'
+77 silly reify ]
+78 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/openbsd-arm64
+79 silly reify mark deleted [
+79 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/openbsd-arm64'
+79 silly reify ]
+80 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/netbsd-x64
+81 silly reify mark deleted [
+81 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/netbsd-x64'
+81 silly reify ]
+82 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/netbsd-arm64
+83 silly reify mark deleted [
+83 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/netbsd-arm64'
+83 silly reify ]
+84 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-x64
+85 silly reify mark deleted [
+85 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-x64'
+85 silly reify ]
+86 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-s390x
+87 silly reify mark deleted [
+87 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-s390x'
+87 silly reify ]
+88 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-riscv64
+89 silly reify mark deleted [
+89 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-riscv64'
+89 silly reify ]
+90 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-ppc64
+91 silly reify mark deleted [
+91 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-ppc64'
+91 silly reify ]
+92 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-mips64el
+93 silly reify mark deleted [
+93 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-mips64el'
+93 silly reify ]
+94 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-loong64
+95 silly reify mark deleted [
+95 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-loong64'
+95 silly reify ]
+96 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-ia32
+97 silly reify mark deleted [
+97 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-ia32'
+97 silly reify ]
+98 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-arm64
+99 silly reify mark deleted [
+99 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-arm64'
+99 silly reify ]
+100 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-arm
+101 silly reify mark deleted [
+101 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/linux-arm'
+101 silly reify ]
+102 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/freebsd-x64
+103 silly reify mark deleted [
+103 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/freebsd-x64'
+103 silly reify ]
+104 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/freebsd-arm64
+105 silly reify mark deleted [
+105 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/freebsd-arm64'
+105 silly reify ]
+106 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/darwin-x64
+107 silly reify mark deleted [
+107 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/darwin-x64'
+107 silly reify ]
+108 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/android-x64
+109 silly reify mark deleted [
+109 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/android-x64'
+109 silly reify ]
+110 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/android-arm64
+111 silly reify mark deleted [
+111 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/android-arm64'
+111 silly reify ]
+112 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/android-arm
+113 silly reify mark deleted [
+113 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/android-arm'
+113 silly reify ]
+114 verbose reify failed optional dependency /Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/aix-ppc64
+115 silly reify mark deleted [
+115 silly reify   '/Users/raman/Documents/projects/gemini-clone/gemini-clone/node_modules/@esbuild/aix-ppc64'
+115 silly reify ]
+116 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 319ms
+117 silly audit report {}
+118 silly ADD node_modules/@rollup/rollup-win32-x64-msvc
+119 silly ADD node_modules/@rollup/rollup-win32-ia32-msvc
+120 silly ADD node_modules/@rollup/rollup-win32-arm64-msvc
+121 silly ADD node_modules/@rollup/rollup-linux-x64-musl
+122 silly ADD node_modules/@rollup/rollup-linux-x64-gnu
+123 silly ADD node_modules/@rollup/rollup-linux-s390x-gnu
+124 silly ADD node_modules/@rollup/rollup-linux-riscv64-musl
+125 silly ADD node_modules/@rollup/rollup-linux-riscv64-gnu
+126 silly ADD node_modules/@rollup/rollup-linux-ppc64-gnu
+127 silly ADD node_modules/@rollup/rollup-linux-loongarch64-gnu
+128 silly ADD node_modules/@rollup/rollup-linux-arm64-musl
+129 silly ADD node_modules/@rollup/rollup-linux-arm64-gnu
+130 silly ADD node_modules/@rollup/rollup-linux-arm-musleabihf
+131 silly ADD node_modules/@rollup/rollup-linux-arm-gnueabihf
+132 silly ADD node_modules/@rollup/rollup-freebsd-x64
+133 silly ADD node_modules/@rollup/rollup-freebsd-arm64
+134 silly ADD node_modules/@rollup/rollup-darwin-x64
+135 silly ADD node_modules/@rollup/rollup-android-arm64
+136 silly ADD node_modules/@rollup/rollup-android-arm-eabi
+137 silly ADD node_modules/@esbuild/win32-x64
+138 silly ADD node_modules/@esbuild/win32-ia32
+139 silly ADD node_modules/@esbuild/win32-arm64
+140 silly ADD node_modules/@esbuild/sunos-x64
+141 silly ADD node_modules/@esbuild/openharmony-arm64
+142 silly ADD node_modules/@esbuild/openbsd-x64
+143 silly ADD node_modules/@esbuild/openbsd-arm64
+144 silly ADD node_modules/@esbuild/netbsd-x64
+145 silly ADD node_modules/@esbuild/netbsd-arm64
+146 silly ADD node_modules/@esbuild/linux-x64
+147 silly ADD node_modules/@esbuild/linux-s390x
+148 silly ADD node_modules/@esbuild/linux-riscv64
+149 silly ADD node_modules/@esbuild/linux-ppc64
+150 silly ADD node_modules/@esbuild/linux-mips64el
+151 silly ADD node_modules/@esbuild/linux-loong64
+152 silly ADD node_modules/@esbuild/linux-ia32
+153 silly ADD node_modules/@esbuild/linux-arm64
+154 silly ADD node_modules/@esbuild/linux-arm
+155 silly ADD node_modules/@esbuild/freebsd-x64
+156 silly ADD node_modules/@esbuild/freebsd-arm64
+157 silly ADD node_modules/@esbuild/darwin-x64
+158 silly ADD node_modules/@esbuild/android-x64
+159 silly ADD node_modules/@esbuild/android-arm64
+160 silly ADD node_modules/@esbuild/android-arm
+161 silly ADD node_modules/@esbuild/aix-ppc64
+162 verbose cwd /Users/raman/Documents/projects/gemini-clone/gemini-clone
+163 verbose os Darwin 24.5.0
+164 verbose node v24.4.1
+165 verbose npm  v11.4.2
+166 verbose exit 0
+167 info ok

@@ -1,0 +1,13 @@
+0 verbose cli /opt/homebrew/Cellar/node/24.4.1/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.4.2
+2 info using node@v24.4.1
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/raman/Documents/projects/gemini-clone/gemini-clone/.npmrc
+5 silly config load:file:/Users/raman/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm run dev
+8 verbose argv "run" "dev"
+9 verbose logfile logs-max:10 dir:/Users/raman/.npm/_logs/2025-07-29T11_32_39_916Z-
+10 verbose logfile /Users/raman/.npm/_logs/2025-07-29T11_32_39_916Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
